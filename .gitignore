@@ -1,0 +1,9 @@
+*gz
+*.swp
+.ipynb_checkpoints/
+__pycache__
+*~
+*pyc
+.cache
+.vscode
+
