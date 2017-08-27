@@ -7,6 +7,8 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 * [Planet Amazon Rainforest](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) - Top 15%
 * [Carvana Image Segmentation](https://www.kaggle.com/c/carvana-image-masking-challenge) - WIP
 
+These notebooks just show basic single-model submissions. Scores can be improved significantly by ensembling different models and using test-time augmentation.
+
 ## Features
 
 1. **Experiments** - Launch experiments from python dictionaries inside jupyter notebooks or python scripts. Attach Visualizers (Visdom, Kibana), Metrics (Accuracy, F2, Loss), or external datastores (S3, Elasticsearch)
