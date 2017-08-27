@@ -5,7 +5,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 
 * [Dogs vs Cats Redux](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition) - Top 8%
 * [Planet Amazon Rainforest](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) - Top 15%
-* [Carvana Image Segmentation](https://www.kaggle.com/c/carvana-image-masking-challenge) challenges - Top 20%
+* [Carvana Image Segmentation](https://www.kaggle.com/c/carvana-image-masking-challenge) challenges - WIP
 
 ## Features
 
