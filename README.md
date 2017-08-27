@@ -28,7 +28,9 @@ These notebooks are just basic, single-model submissions. Scores can be improved
 5. Server with GPU and Cuda installed
 
 ## Datasets
-To get started you'll need to move all training and test images to the projectroot/datasets/inputs directory (either trn_jpg tst_jpg subdirectories). There is no need to make separate directories for classes or validation sets. This is handled by the data_fold.py module and the FileDataset loader, which expects a list of filepaths and targets. After trying out a lot of different approaches, I found this to be the easiest and most extensible. You'll also need to generate a metadata file if Kaggle didn't provide one. This sort of competition-specific code should live in the `competitions/` directory.
+To get started you'll need to move all training and test images to the projectroot/datasets/inputs directory (either trn_jpg tst_jpg subdirectories). Running the first cell of each notebook creates the directory structure outlined in the `config.py` file.
+
+There is no need to create separate directories for classes or validation sets. This is handled by the data_fold.py module and the FileDataset, which expects a list of filepaths and targets. After trying out a lot of approaches, I found this to be the easiest and most extensible. You'll sometimes need to generate a `metadata.csv` file separately if Kaggle didn't provide one. This sort of competition-specific code can live in the `competitions/` directory.
 
 ## Visdom
 Visualize experiment progress on your phone with Facebook's new [Visdom](https://github.com/facebookresearch/visdom) framework.
