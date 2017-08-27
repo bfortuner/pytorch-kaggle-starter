@@ -25,7 +25,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 4. cv2 ([install instructions, I think?](http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/))
 5. Server with GPU and Cuda installed
 
-## File management
+## Datasets
 To get started you'll need to move all training and test images to the projectroot/datasets/inputs directory (either trn_jpg tst_jpg subdirectories). There is no need to make separate directories for classes or validation sets. This is handled by the data_fold.py module and the FileDataset loader, which expects a list of filepaths and targets. After trying out a lot of different approaches, I found this to be the easiest and most extensible. 
 
 ## Visdom
