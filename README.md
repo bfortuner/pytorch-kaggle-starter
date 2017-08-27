@@ -5,7 +5,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 
 * [Dogs vs Cats Redux](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition) - Top 8%
 * [Planet Amazon Rainforest](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) - Top 15%
-* [Carvana Image Segmentation](https://www.kaggle.com/c/carvana-image-masking-challenge) challenges - WIP
+* [Carvana Image Segmentation](https://www.kaggle.com/c/carvana-image-masking-challenge) - WIP
 
 ## Features
 
@@ -24,6 +24,9 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 3. Other requirements: ```pip install -r requirements.txt```
 4. cv2 ([install instructions, I think?](http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/))
 5. Server with GPU and Cuda installed
+
+## File management
+To get started you'll need to move all training and test images to the projectroot/datasets/inputs directory (either trn_jpg tst_jpg subdirectories). There is no need to make separate directories for classes or validation sets. This is handled by the data_fold.py module and the FileDataset loader, which expects a list of filepaths and targets. After trying out a lot of different approaches, I found this to be the easiest and most extensible. 
 
 ## Visdom
 Visualize experiment progress on your phone with Facebook's new [Visdom](https://github.com/facebookresearch/visdom) framework.
