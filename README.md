@@ -9,7 +9,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 
 ## Features
 
-1. **Experiment management** - Launch experiments from python dictionaries inside jupyter notebooks or python scripts. Attach Visualizers (Visdom, Kibana), Metrics (Accuracy, F2, Loss), or external datastores (S3, Elasticsearch)
+1. **Experiments** - Launch experiments from python dictionaries inside jupyter notebooks or python scripts. Attach Visualizers (Visdom, Kibana), Metrics (Accuracy, F2, Loss), or external datastores (S3, Elasticsearch)
 2. **Monitoring** - Track experiments from your phone or web-browser in real-time with Visdom, a lightweight visualization framework from Facebook
 3. **Notifications** - Receive email notifications when experiments complete or fail
 4. **Sharing** - Upload experiments, predictions and ensembles to S3 for other users to download
@@ -26,7 +26,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 5. Server with GPU and Cuda installed
 
 ## Datasets
-To get started you'll need to move all training and test images to the projectroot/datasets/inputs directory (either trn_jpg tst_jpg subdirectories). There is no need to make separate directories for classes or validation sets. This is handled by the data_fold.py module and the FileDataset loader, which expects a list of filepaths and targets. After trying out a lot of different approaches, I found this to be the easiest and most extensible. 
+To get started you'll need to move all training and test images to the projectroot/datasets/inputs directory (either trn_jpg tst_jpg subdirectories). There is no need to make separate directories for classes or validation sets. This is handled by the data_fold.py module and the FileDataset loader, which expects a list of filepaths and targets. After trying out a lot of different approaches, I found this to be the easiest and most extensible. You'll also need to generate a metadata file if Kaggle didn't provide one. This sort of competition-specific code should live in the `competitions/` directory.
 
 ## Visdom
 Visualize experiment progress on your phone with Facebook's new [Visdom](https://github.com/facebookresearch/visdom) framework.
