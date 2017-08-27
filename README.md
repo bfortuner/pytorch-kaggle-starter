@@ -7,7 +7,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 * [Planet Amazon Rainforest](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) - Top 15%
 * [Carvana Image Segmentation](https://www.kaggle.com/c/carvana-image-masking-challenge) - WIP
 
-These notebooks just show basic single-model submissions. Scores can be improved significantly by ensembling different models and using test-time augmentation.
+These notebooks are just basic, single-model submissions. Scores can be improved significantly by ensembling different models and using test-time augmentation.
 
 ## Features
 
