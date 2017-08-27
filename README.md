@@ -22,7 +22,7 @@ Inside are example Jupyter notebooks walking through how to get strong scores on
 1. [Anaconda](https://www.continuum.io/downloads) with Python3
 2. [Pytorch](http://pytorch.org/)
 3. Other requirements: ```pip install -r requirements.txt```
-4. cv2 ([install instructions, I think?](http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/))
+4. conda install -c menpo opencv
 5. Server with GPU and Cuda installed
 
 ## Datasets
